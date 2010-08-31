@@ -1,0 +1,308 @@
+@charset "utf-8";
+body  {
+	font: 80% Verdana, Arial, Helvetica, sans-serif;
+	background: #000000;
+	background-image:url(../images/bg_color.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:top center; 
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+a:link { color: #1668cb; text-decoration: none; }
+a:hover { color: #C77B00; }
+
+/* START Buttons */
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+button { 
+  border:0; 
+  cursor:pointer;  
+  padding:0 14px 0 0; 
+  text-align:center;  
+}
+button span { 
+  position: relative; 
+  display: block; 
+  white-space: nowrap; 
+  padding: 0 0 0 14px; 
+}
+
+/* Form Buttons buttons*/
+button.form-button { 
+  background:url(../images/buttonb.png) right no-repeat; 
+  font-size: 12px;
+}
+button.form-button span { 
+  height:22px; 
+  line-height:22px;
+  background:url(../images/buttona.png) left no-repeat;
+  color: #1668cb;
+  padding-bottom: 4px;  
+}
+button.form-button:hover {
+  background:url(../images/buttonb.png) right no-repeat;
+  font-size: 12px;
+}
+button.form-button:hover span {
+	background:url(../images/buttona.png) left no-repeat;
+	height:22px; 
+	line-height:22px;
+	color: #C77B00;
+}
+
+/* STOP form buttons */
+
+/* Small Link Buttons */
+a.button2 {
+    background: transparent url('../images/buttonb.png') no-repeat scroll top right;
+    color: #1668cb;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 26px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a.button2 span {
+    background: transparent url('../images/buttona.png') no-repeat top right;
+    display: block;
+    line-height: 17px;
+    padding: 4px 0 5px 18px;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+a.button2:hover {
+    background-position: bottom right;
+    color: #C77B00;
+    outline: none; /* hide dotted outline in Firefox */
+}
+/* End Small Link Buttons */
+
+/* Long Link Buttons ( mainpage ) */
+a.button3 {
+    background: transparent url('../images/buttonb.png') no-repeat scroll top right;
+    color: #1668cb;
+    display: block;
+    font: normal 12px arial, sans-serif;
+    height: 26px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button3 span {
+    background: transparent url('../images/buttona.png') no-repeat top left;
+    display: block;
+    line-height: 17px;
+    padding: 4px 0 5px 18px;
+} 
+
+a.button3:hover {
+    background-position: bottom right;
+    color: #C77B00;
+    outline: none; /* hide dotted outline in Firefox */
+}
+/* End Long Buttons */
+
+/* END BUTTONS */
+
+
+.twoColElsLtHdr #container { 
+	width: 1000px;
+	background: url(../images/content-bg-drk.png) repeat;
+	border: 2px solid #001827;
+	margin: 0 auto; 
+	margin-top: 200px;
+	margin-bottom: 2em;
+	text-align: left;
+} 
+
+/* Start of top Navigation */
+.nav {width:1009px; overflow:hidden; height:200px; position: relative; margin-left: auto; margin-right: auto;}
+.nav_holder {position:relative; left:55%; }
+.nav_container {width:1009px; height:200px; position:absolute; left:-557px; background:url('../images/navigation_bg.png') 0 0 no-repeat; }
+.nav_int {width:920px; margin:0 auto; }
+.nav .logo {display:block; width:318px; height:200px; float:left;}
+.nav .menu {padding:48px 0 0 20px; float:left;}
+.nav .menu a {height:80px; background-repeat:no-repeat; display:block; float:left; background-image:url('../images/navigation.png'); }
+.nav .menu a:hover {background-position: bottom;}
+
+.nav a.account { width:100px; background-position: 0 0; }
+.nav a.account:hover { background-position: 0 -80px; }
+.nav a.forum {width:100px; background-position: -100px 0;}
+.nav a.forum:hover { background-position: -100px -80px; }
+.nav a.armory { width:100px; background-position: -200px  0;}
+.nav a.armory:hover { background-position: -200px -80px; }
+.nav a.shop { width:100px; background-position: -300px 0;}
+.nav a.shop:hover { background-position: -300px -80px; }
+/* End top Navigation */
+
+.twoColElsLtHdr #sidebar1 {
+	list-style-type: none; 
+	float: left; 
+	width: 189px; 
+	background: url(../images/content-bg-drk.png);
+	border-bottom: 1px solid #001827;
+}
+.twoColElsLtHdr #sidebar1 h3, .twoColElsLtHdr #sidebar1 p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.twoColElsLtHdr #navtitle {
+	width: 175px;
+	background: url(../images/content-bg-lite.png);
+	color: #1668cb;
+	font-weight: bold;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-left: 1px solid #001827;
+	border-right: 1px solid #001827;
+	border-bottom: 1px solid #001827;
+}
+.twoColElsLtHdr #sidebartitle {
+	width: 161px;
+	background: url(../images/content-bg-lite.png);
+	color: #1668cb;
+	font-weight: bold;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-left: 1px solid #001827;
+	border-right: 1px solid #001827;
+	border-bottom: 1px solid #001827;
+}
+.twoColElsLtHdr #sidebar2 {
+	list-style-type: none;
+	padding-bottom: 10px;
+	float: right; 
+	width: 175px; 
+	background: url(../images/content-bg-drk.png);
+	border-bottom: 1px solid #001827;
+}
+.twoColElsLtHdr #mainContent {
+	margin: 0 175px 0 190px;
+	min-height: 300px;
+	background-image:url(../images/content-bg.png);
+	border-right: 2px solid #001827;
+	border-left: 2px solid #001827;
+	border-bottom: 1px solid #001827;
+}
+.twoColElsLtHdr #Content {
+	width: 600px;
+	min-height: 25px;
+	background-image: url(../images/content-bg-drk.png);
+	border: 2px solid #001827;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 5px 5px 15px 5px;
+}
+.twoColElsLtHdr #Contenthdr {
+	width: 600px;
+	background-image: url(../images/content-bg-lite.png);
+	font-weight: bold;
+	color: #1668cb;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	padding: 5px 5px 5px 5px;
+	border: 2px solid #001827;
+}
+.twoColElsLtHdr #Contentsubhdr {
+	width: 560px;
+	font-weight: bold;
+	color: #C77B00;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	padding: 5px 5px 0 5px;
+	border-bottom: 2px solid #999999;
+}
+.twoColElsLtHdr #news {
+	width: 600px;
+	background-image: url(../images/content-bg-drk.png);
+	border: 2px solid #001827;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+} 
+.twoColElsLtHdr #newshdr {
+	width: 590px;
+	background-image: url(../images/content-bg-lite.png);
+	font-size: 16px;
+	color: #1668cb;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 5px 5px 5px;
+}
+.twoColElsLtHdr #newsdate {
+	width: 595px;
+	background-image: url(../images/content-bg-lite.png);
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	border-bottom: 1px solid #001827;
+}  
+.twoColElsLtHdr #footer {
+	padding: 0 10px;
+	background: transparent;
+	background-image:url(../images/content-bg.png);
+	border-top: 1px solid #001827;
+} 
+.twoColElsLtHdr #footer p {
+	padding: 10px 0;
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+.sdmenu ul { list-style-type: none; }
+.sdmenu li {
+	margin-left:-35px;
+	margin-right:5px;
+} 
+.info-table-head {
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+	padding-bottom: 10px;
+	color: #dddddd;
+	/* color: #1668cb; */
+	font-weight: bold;
+	border-bottom: 1px dotted #666666;
+}
+.info-table {
+	padding-bottom: 3px;
+	border-bottom: 1px dotted #666666;
+}

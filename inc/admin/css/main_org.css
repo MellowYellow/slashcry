@@ -1,0 +1,180 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 5px;
+	padding: 5px;
+	background-color: #FCFCFC;
+	background-image: url(../images/bg.jpg);
+}
+
+.button {
+	font-size: 11px;
+	color: #666666;
+	background-color:#FFF;
+	border: 1px solid #DADDD0;
+	margin: 2px;
+	padding: 2px;
+}
+ 
+.inputbox {
+	border: 1px solid #CCCCCC;
+	background-color: #F3F3F3;
+	margin: 2px;
+	color: #666666;
+}
+
+.form-head {
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	border-bottom: 1px dotted #666666;
+}
+
+.form-section-head {
+	font-size: 12px;
+	text-align: left;
+	padding: 5px;
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+.form-text {
+	font-size: 12px;
+	padding-top: 5px;
+	vertical-align: top;
+	text-align: left;
+}
+
+.form-text2 {
+	font-size: 12px;
+	padding-top: 5px;
+	vertical-align: top;
+}
+
+.form-desc {
+	font-size: 11px;
+	padding: 2px;
+	padding-top: 5px;
+	vertical-align: top;
+	text-align: left;
+}
+
+.form-pagenav {
+	font-family: Courier New, Courier;
+	font-size: 11px;
+	text-align: right;
+	padding: 3px;
+	vertical-align: top;
+}
+
+.rowdata {
+	background-color: #EAECEE;
+}
+
+.rowdatasel {
+	background-color: #D8E1EB;
+}
+.maintable {
+	border-width: 1px;
+	border-style: dotted;
+	background-color: #FCFCFC;
+}
+.subtbl {
+	font-size: 11px;
+}
+td.header {
+	background-color: #DDDDDD;
+	vertical-align: middle;
+}
+tr.content{
+	background-color: #EAECEE;
+	vertical-align: middle;
+}
+
+td.buttons{
+	font-size: 12px;
+	padding-top: 5px;
+	border-top: 1px dotted #666666;
+	vertical-align: middle;
+}
+
+div.title {
+	font-family: Verdana;
+	font-variant: small-caps;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+div.dbver {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+div.main-menu {
+	font-family: Arial Narrow;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 5px;	
+}
+
+ul.sub-menu {
+	font-family: Arial Narrow;
+	font-size: 12px;
+	text-align: left;
+	text-indent: 0;
+	list-style-type: none;
+	padding:0px;
+	margin-left: 10px;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+div.desc-title {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 5px;
+}
+
+div.description {
+	font-family: Arial;
+	font-size: 11px;
+	margin: 5px;
+}
+
+div.auth-info {
+	margin-top: 10px;
+}
+
+div.content-head {
+	margin:10px;
+	border-top: 1px dotted #666666;
+	border-bottom: 1px dotted #666666;
+}
+
+div.content {
+	margin:10px;
+}
+
+div.footer {
+	font-size: 11px;
+}
+.alert_box {
+  padding: 5px 5px 5px 5px;
+  background: #ffcccc;
+  border: 1px solid #ff0000;
+  margin: 10px;
+  color: #3C452D;
+}
+.notice_box {
+  padding: 5px 5px 5px 5px;
+  background: #ccffcc;
+  border: 1px solid #33cc33;
+  margin: 10px;
+  color: #3C452D;
+}
